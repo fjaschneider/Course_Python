@@ -1,0 +1,5 @@
+n = str(input('Digite seu nome completo: ')).strip().upper()
+nsplit = n.split()
+print('Bem vindo ao Python')
+print('Seu primeiro nome é {}.'.format(nsplit[0]))
+print('Seu último nome é {}.'.format(nsplit[len(nsplit)-1]))

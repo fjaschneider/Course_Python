@@ -1,0 +1,5 @@
+fr = str(input('Digite um texto: ')).strip().upper()
+loc = str(input('Qual letra você quer procurar: ')).strip().upper()
+print('A letra "{}" aparece {} vezes no texto.'.format(loc, fr.count(loc)))
+print('A primeira letra "{}" apareceu na posição {}'.format(loc, fr.find(loc)+1))
+print('A última letra "{}" aparece na posição {}.'.format(loc, fr.rfind(loc)+1))
